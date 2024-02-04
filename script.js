@@ -5,4 +5,8 @@ const calculateBonus = (a, b) => {
     sum > 50 ? (bonus = 50) : (bonus = sum);
     debugger;
     return bonus;
+    console.log(bonus)
     };
+
+calculateBonus(2,5)
+

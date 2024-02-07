@@ -16,4 +16,3 @@ it("Amount equals 50 ", () => {
   expect(calculateBonus(50, 0)).toBe(50);
   expect(calculateBonus(-50, 100)).toBe(50);
 });
-

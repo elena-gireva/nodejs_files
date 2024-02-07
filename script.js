@@ -1,10 +1,12 @@
-function calculateBonus(a,b) {
-  let bonus;
-  const sum = a + b;
-  //сравниваем сумму двух заданных чисел с 50, если сумма больше 50, то переменная Бонус = 50, иначе переменная Бонус = сумме этих чисел
-  sum > 50 ? (bonus = 50) : (bonus = sum);
-  //возвращаем вычесленную переменную Бонус
-  return bonus;
-};
+// function calculateBonus(a,b) {
+//   let bonus;
+//   const sum = a + b;
+//   sum > 50 ? (bonus = 50) : (bonus = sum);
+//   return bonus;
+// };
 
-module.exports = calculateBonus;
+function sum(a,b){
+  return a+b;
+}
+
+module.exports = sum;

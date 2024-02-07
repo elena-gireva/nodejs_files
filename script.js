@@ -8,3 +8,5 @@ const calculateBonus = (a, b) => {
 };
 
 calculateBonus(2, 5);
+
+module.exports = calculateBonus;

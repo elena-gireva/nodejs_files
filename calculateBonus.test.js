@@ -3,7 +3,7 @@ const calculateBonus = require("./script");
 it("Amount less than 50 ", () => {
   expect(calculateBonus(-20, 50)).toBe(30);
   expect(calculateBonus(0, 0)).toBe(0);
-  expect(calculateBonus(40, 9)).toBe(50);
+  expect(calculateBonus(40, 9)).toBe(49);
 });
 
 it("Amount more than 50 ", () => {
